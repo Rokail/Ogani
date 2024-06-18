@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 40px;
+    width: 100%;
+    background-color: lightgray;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.4fr 1fr;
+    grid-template-rows: 80px 80px 431px 271px ;
+}
+main div{
+    border: 1px solid;
+}
+
+#logo{ grid-column-start: 2;
+display: flex;
+
+}
+#nav{ grid-column: 3/6;}
+#menu{grid-column: 2;
+grid-row: 2/4;}
+#busca{grid-column: 3/6;
+grid-row: 2;}
+#banner{grid-column: 3/6;
+grid-row: 3;
+background-image: url(hero/banner.jpg.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+
+#prod1 {
+    grid-row: 4;
+    grid-column: 2;
+}
+#prod2{
+    grid-row: 4;
+    grid-column: 3;
+}
+#prod3{
+    grid-row: 4;
+    grid-column: 4;
+}
+#prod4{
+    grid-row: 4;
+    grid-column: 5;
+}
