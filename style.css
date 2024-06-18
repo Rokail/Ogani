@@ -17,17 +17,15 @@ main div{
 }
 
 #logo{ grid-column-start: 2;
-display: flex;
-
-}
-#nav{ grid-column: 3/6;}
+padding: 15px 0px;}
+#nav{ grid-column: 3/5;}
 #menu{grid-column: 2;
 grid-row: 2/4;}
 #busca{grid-column: 3/6;
 grid-row: 2;}
 #banner{grid-column: 3/6;
 grid-row: 3;
-background-image: url(hero/banner.jpg.webp);
+background-image: url(banner.jpg.webp);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;}
@@ -47,4 +45,25 @@ background-repeat: no-repeat;}
 #prod4{
     grid-row: 4;
     grid-column: 5;
+}
+
+#nav {
+    text-align: center;
+    padding: 20px 0px; 
+}
+
+#nav ul { 
+    font-family: cairo;
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+    
+}
+
+#nav ul a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 0px;
 }
