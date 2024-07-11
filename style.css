@@ -5,7 +5,7 @@
 header {
     height: 40px;
     width: 100%;
-    background-color: lightgray;
+    background-color: rgb(243, 243, 243);
 }
 main {
     display: grid;
@@ -48,22 +48,34 @@ background-repeat: no-repeat;}
 }
 
 #nav {
-    text-align: center;
-    padding: 20px 0px; 
+    padding: 24px 0;
 }
 
-#nav ul { 
-    font-family: cairo;
-    display: flex;
-    padding-inline-start: 0px;
-    justify-content: space-between;
-    
+#rownav1 {
+    color: #7fad39;
+    text-decoration: none;
+
 }
 
-#nav ul a{
-    font-size: large;
+#nav ul {
+    font-size: 16px;
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 5px 0px;
+    font-weight: 500px;
+    font-family: cairo;
+    display: flex;
+    justify-content: space-around;
 }
+
+.rova{
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul{
+    list-style: none;
+    padding: 0;
+}
+
